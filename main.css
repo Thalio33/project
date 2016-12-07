@@ -1,0 +1,116 @@
+html, body {
+	margin: auto;
+	padding:2px 3px 2px 3px;
+	font-family:tahoma, geneva, sans-serif;
+	color:black;
+	font-size:0.95em;
+	max-width:850px;
+	align-content:center;
+}
+
+header img{
+	width:100%; top
+	}
+
+ul
+{
+	width:auto;
+	margin:0;
+	padding:0px 5px;
+	align-content:left;
+	white-space:normal;
+	text-transform:uppercase;
+	}
+
+li {
+	display:inline-block;
+		align-content:left;
+		vertical-align:center;
+	padding:2px;
+	text-align:left;
+	font-size:1em;
+}
+a {text-decoration:none;}
+a:link {color:black;}
+a:visited {color:brown;}
+a:hover {color:silver;}
+a:active {color:green;}
+
+
+#content{
+	display:block;
+	background:url(fond.jpg)100%;
+		margin-top:1em;
+		padding:0.25em 0.25em 0.25em 0.25em;
+		background-size:cover;
+		background-position:top left;
+		background-repeat:repeat;
+		background-clip:padding-box;
+		background-origin:border-box;
+		border:3px solid #99cc00;
+		border-radius:0.75em;
+		height:auto;
+		text-align:justify;}
+	
+	main::after{content:"Editing : December 6 2016";
+	display:block;
+	color:black;
+	font-style:italic;
+	font-size:0.65em;
+	line-height:2em;
+	text-align:right;
+	text-shadow:3px 6px 2px rgba(0,0,0,.3);
+		}
+	
+h2 
+{
+	text-shadow:0.15em 0.3em 0.15em rgba(0,0,0,.3);
+	margin:5px 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	font-family:Arial, Verdana, Sans-serif;
+	color:ffffff;
+}
+
+
+p{
+margin :10px 5px 10px 5px;
+padding:5px 1px 5px 1px;
+}
+
+h3
+{
+margin:10px 10px 10px 10px 10px;
+padding: 5px 5px 5px 5px;
+font-family: Arial, Verdana, Sans-serif;
+}
+
+table img{
+	width:100%;
+	border:3px solid green;
+}	
+table{background: rgb(143,221,79);
+background: -moz-linear-gradient(45deg,  rgba(143,221,79,1) 0%, rgba(153,101,78,1) 39%, rgba(102,68,49,1) 68%, rgba(86,46,18,1) 100%);
+background: -webkit-linear-gradient(45deg,  rgba(143,221,79,1) 0%,rgba(153,101,78,1) 39%,rgba(102,68,49,1) 68%,rgba(86,46,18,1) 100%);
+background: linear-gradient(45deg,  rgba(143,221,79,1) 0%,rgba(153,101,78,1) 39%,rgba(102,68,49,1) 68%,rgba(86,46,18,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fdd4f', endColorstr='#562e12',GradientType=1 );
+;
+border-radius:10px;
+border:silver solid;
+}
+
+figure{
+	max-width:850px;
+	align-content:center;
+}
+
+footer
+{
+	background:url(titre.gif)100% no-repeat;
+	background-size:cover;
+	color:white;
+	margin-top:1em;
+	padding:0.15em 0.15em 0.15em 0.15em;
+	border:3px solid #99cc00;
+	border-radius:0.75em;
+	text-align:justify;
+}
